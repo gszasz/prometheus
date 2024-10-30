@@ -25,7 +25,7 @@ import copy
 import logging
 import time
 import matplotlib
-import sep
+import sep_pjw as sep
 from . import leastsquares as lsq,models,utils
 from .ccddata import CCDData
 

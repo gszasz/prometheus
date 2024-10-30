@@ -1,5 +1,5 @@
 photutils
-sep
+sep-pjw
 scikit-image
 dlnpyutils
 scipy

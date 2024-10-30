@@ -33,7 +33,7 @@ You can also write a CCDData object to file.  This saves the flux, error, mask a
 
 	image.write('outfile.fits')
         
-CCDData objects have a ``sky`` image property.  This can be set manually, but is calculated directly from the image using ``sep`` (Python and C library for Source Extraction and Photometry) package.
+CCDData objects have a ``sky`` image property.  This can be set manually, but is calculated directly from the image using ``sep-pjw`` (Python and C library for Source Extraction and Photometry) package.
 
 It also has a bounding box property (``bbox``) using the photutil ``BoundingBox`` class.  This can be useful when you take a slice of an image because it will remember what the original coordinates were.
 
@@ -155,7 +155,7 @@ The Important Modules
 
 * :mod:`~prometheus.ccddata` contains the `~prometheus.ccddata.CCDData` object used for images.
 * :mod:`~prometheus.models` contains the various PSF models.
-* :mod:`~prometheus.detection` can be used to detect sources using ``sep`` or ``photutils``.
+* :mod:`~prometheus.detection` can be used to detect sources using ``sep-pjw`` or ``photutils``.
 * :mod:`~prometheus.aperture` measures aperture photometry.
 * :mod:`~prometheus.getpsf` is used to fit the PSF for an image. 
 * :mod:`~prometheus.groupfit` can be used to fit a group of overlapping data.

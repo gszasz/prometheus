@@ -27,7 +27,7 @@ Dependencies
 - scipy
 - astropy
 - matplotlib
-- sep
+- sep-pjw
 - photutils
 - dlnpyutils
 - scikit-image

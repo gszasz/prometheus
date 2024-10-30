@@ -25,7 +25,7 @@ import time
 import matplotlib
 from .ccddata import BoundingBox,CCDData
 from matplotlib.patches import Ellipse
-import sep
+import sep_pjw as sep
 
 def circaperphot(im,positions,rap=[5.0],rbin=None,rbout=None):
     """

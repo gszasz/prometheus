@@ -8,7 +8,7 @@ __authors__ = 'David Nidever <dnidever@montana.edu?'
 __version__ = '20210913'  # yyyymmdd
 
 import numpy as np
-import sep
+import sep_pjw as sep
 from astropy.stats import SigmaClip
 from photutils.background import Background2D, MedianBackground, MADStdBackgroundRMS
 

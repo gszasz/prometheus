@@ -25,7 +25,7 @@ import matplotlib
 from .ccddata import BoundingBox,CCDData
 import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse
-import sep
+import sep_pjw as sep
 from photutils.detection import DAOStarFinder,IRAFStarFinder
 from skimage.feature import peak_local_max
     
